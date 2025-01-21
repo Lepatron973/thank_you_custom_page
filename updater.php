@@ -1,5 +1,6 @@
 <?php
 
+namespace ConfirmationPage;
 
 class GitHub_Updater
 {

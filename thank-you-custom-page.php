@@ -4,14 +4,15 @@
  * Plugin Name: Thank you Custom Page
  * Plugin URI: https://github.com/Lepatron973/thank_you_custom_page
  * Description: Enhance your order confirmation page with a WebbaBooking calendar, allowing users to reserve their session or appointment after completing their order.
- * Version: 0.4
+ * Version: 0.3
  * Author: Lepatron973
  * Author URI: https://sunitronics.fr
- * Text Domain: Thank you Custom Page
  * Github Plugin URI: https://github.com/Lepatron973/thank_you_custom_page
  */
 
 defined('ABSPATH') || exit;
+
+use ConfirmationPage\GitHub_Updater;
 
 // Inclure l'autoloader personnalisé
 require_once __DIR__ . '/autoloader.php';
