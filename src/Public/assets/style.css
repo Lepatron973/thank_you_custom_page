@@ -1,0 +1,43 @@
+.swiper-container {
+    position: relative !important;
+    width: 100%;
+    height: auto;
+    overflow: hidden !important;
+}
+
+.audio-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.audio-item .play-button {
+    font-size: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.play-button {
+    font-size: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
